@@ -12,17 +12,9 @@ burger.addEventListener("click", () => {
 button.addEventListener("click", () => {
   footer.classList.toggle("change-bg-footer");
 });
+
 //-------------------Swiper--------------------------
-const image_swiper = new Swiper(".image-slider", {
-  spaceBetween: 250,
-  autoplay: {
-    delay: 1500,
-    stopOnLastSlide: false,
-    disableOnInteraction: false,
-  },
-  speed: 1000,
-
-  loop: true,
-
-  centeredSlides: true,
+const swiper = new swiper(".myswiper", {
+  slidesPerView: 1,
+  spaceBetween: 24,
 });
