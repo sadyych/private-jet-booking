@@ -781,11 +781,21 @@ h4 {
   overflow: hidden;
 }
 
+.swiper-slide-prev,
+.swiper-slide-next {
+  display: block;
+}
+
+.swiper-slide-active {
+  display: block;
+}
+
 .membership-slider__slide {
   padding: 24px 24px 24px 24px;
   border-radius: 20px;
   background: #f5f5f5;
   margin: 0 auto;
+  display: none;
 }
 
 .membership-slider__slide h3 {

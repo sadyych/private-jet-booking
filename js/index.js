@@ -59,14 +59,14 @@ const membershipSwiper = new Swiper(".membership-slider", {
   loop: true,
   centeredSlides: true,
   slidesPerView: 3,
-  initialSlide: 1,
+  initialSlide: 0,
   autoplay: {
     delay: 1500,
     stopOnLastSlide: false,
     disableOnInteraction: false,
   },
   speed: 1000,
-  //   effect: "coverflow",
+  effect: "coverflow",
 
   coverflowEffect: {
     rotate: 0,
