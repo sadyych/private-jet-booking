@@ -59,7 +59,7 @@ const membershipSwiper = new Swiper(".membership-slider", {
   loop: true,
   centeredSlides: true,
   slidesPerView: 3,
-  initialSlide: 0,
+  initialSlide: 1,
   autoplay: {
     delay: 1500,
     stopOnLastSlide: false,
